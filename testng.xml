@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!--   <test name="Verification_Login"> -->
+<!--     <classes> -->
+      
+<!--       <class name="Verification_Login.Display_Test"/> -->
+<!--       <class name="Verification_Login.forwardBack"/> -->
+<!--       <class name="Verification_Login.Color_Verify"/> -->
+<!--       <class name="Verification_Login.Login_Testcase"/> -->
+     
+<!--     </classes> -->
+<!--   </test> Test -->
+  
+<!--    <test name="Activity"> -->
+<!--     <classes> -->
+<!--       <class name="Activity.ActivityPageTest"/> -->
+<!--       <class name="Activity.Display_Test"/> -->
+<!--     </classes> -->
+<!--   </test> Test -->
+  
+    <test name="Sendkudos">
+    <classes>
+      <class name="Sendkudos.ConfirmationMsg"/>
+      <class name="Sendkudos.Recent_Contacts"/>
+       <class name="Sendkudos.SelectDeselectKudo"/>
+      <class name="Sendkudos.selectkudomultipleTest"/>
+       <class name="Sendkudos.selectkudoSingleTest"/>
+      <class name="Sendkudos.WithoutCitation"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+<!--   <test name="KudosSearch"> -->
+<!--     <classes> -->
+<!--       <class name="KudosSearch.KudosSearchTest"/> -->
+     
+<!--     </classes> -->
+<!--   </test> Test -->
+  
+<!--    <test name="others"> -->
+<!--     <classes> -->
+<!--       <class name="others.Activity_option"/> -->
+<!--       <class name="others.kudocountTest"/> -->
+<!--        <class name="others.KudosFromMe"/> -->
+<!--       <class name="others.Kudostome"/> -->
+<!--        <class name="others.kudosTOMyself"/> -->
+<!--     </classes> -->
+<!--   </test> Test -->
+  
+<!--   <test name="Integration"> -->
+<!--     <classes> -->
+<!--       <class name="Integration.Recent_Contacts1"/> -->
+<!--       <class name="Integration.selectkudoSingleTest1"/> -->
+<!--     </classes> -->
+<!--   </test> Test -->
+  
+  
+</suite> <!-- Suite -->
